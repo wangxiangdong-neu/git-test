@@ -13,6 +13,7 @@ public class GitTest {
     @Test
     public void testGit(){
         System.out.println("hello, git!");
+        System.out.println("push test!");
     }
 
 }
