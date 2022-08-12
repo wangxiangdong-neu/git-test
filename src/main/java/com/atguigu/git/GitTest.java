@@ -1,5 +1,7 @@
 package com.atguigu.git;
 
+import org.junit.Test;
+
 /**
  * @title: GitTest
  * @Author: Mrdong
@@ -8,13 +10,9 @@ package com.atguigu.git;
  */
 public class GitTest {
 
-    public static void main(String[] args) {
+    @Test
+    public void testGit(){
         System.out.println("hello, git!");
-        System.out.println("hello, git2!");
-        System.out.println("hello, git3!");
-        System.out.println("hello, git4!");
-        System.out.println("master test!");
-        System.out.println("hot-fix test!");
     }
 
 }
